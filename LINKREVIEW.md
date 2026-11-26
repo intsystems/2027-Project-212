@@ -8,7 +8,7 @@
 
 | Topic | Title | Year | Authors | Paper | Code | Summary |
 | :--- | :--- | :---: | :--- | :---: | :---: | :--- |
-| Основы причинного вывода | ML beyond Curve Fitting: An Intro to Causal Inference and do-Calculus | 2018 | Ferenc Huszár | [Блог](https://www.inference.vc/untitled/) | — | Введение в причинный вывод: разница между наблюдением $X=x$ и вмешательством $\operatorname{do}(X=x)$. |
+| Основы причинного вывода | ML beyond Curve Fitting: An Intro to Causal Inference and do-Calculus | 2018 | Ferenc Huszár | [Блог](https://www.inference.vc/untitled/) | — | Введение в причинный вывод: разница между наблюдением `X=x` и вмешательством do(X=x). |
 | Основы причинного вывода | Illustrating Interventions via a Toy Example | 2019 | Ferenc Huszár | [Блог](https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/) | — | Простой пример того, как причинная структура позволяет предсказать эффект вмешательства. |
 | Причинные графы и модели | Causal Diagrams, Markov Factorization, Structural Equation Models | 2021 | Ferenc Huszár, Patrik Reizinger | [Блог](https://www.inference.vc/causal-inference-4/) | — | Связь графов, факторизации распределения и структурных уравнений; разные причинные модели могут давать одинаковые наблюдения. |
 | Смешение и поправки | Ways to Close Backdoors in DAGs | 2020 | Andrew Heiss | [Блог](https://www.andrewheiss.com/blog/2020/02/25/closing-backdoors-dags/) | — | Выбор переменных для поправки на смешение и закрытия backdoor-путей между воздействием и исходом. |
