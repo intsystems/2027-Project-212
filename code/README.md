@@ -1,28 +1,23 @@
-# Анализ устойчивости причинно-следственных графов, восстановленных по многомерным временным рядам
+# Code
 
-**Автор:** Григорий Новичков  
-**Научный руководитель:** Вадим Викторович Стрижов
+This repository contains source code for our paper. The code includes data processing, model building, and visualization of results.
 
-## О проекте
+> [!IMPORTANT]
+> We use jupyter notebooks for visualization purposes only. Please, keep your code in Python scripts.
 
-Исследуем, правда ли неизменность состояния
-динамической системы влечёт за собой неизменность причинно-следственного графа.
+## Installation
 
-## Гипотеза
+Clone the repo:
+```bash
+git clone https://github.com/intsystems/2027-Project-212.git
+cd 2027-Project-212/code
+```
 
-В пределах одного процесса структура графа остаётся устойчивой,
-а при смене процесса меняется. Проверяем, насколько чувствительны
-изменения графа к переходам между процессов.
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-## Первый эксперимент
+## Usage
 
-На данных HARTH рассматриваем ходьбу и бег как два режима движения.
-Восстанавливаем графы по фрагментам сигналов акселерометров
-и проверяем, можно ли различать эти режимы по признакам графов.
-
-## Материалы
-
-- [Обзор литературы](LINKREVIEW.md)
-- [Код](code/)
-- [Статья](paper/)
-- [Презентация](slides/)
+TODO
